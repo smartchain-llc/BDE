@@ -1,0 +1,8 @@
+# CMake build dir
+build
+
+**.bde*
+**.tiff
+**.JPG
+**.JPEG
+**.GIF
