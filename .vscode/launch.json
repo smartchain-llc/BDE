@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/bde",
-            "args": ["${workspaceFolder}/CMakeLists.txt", "-s", "32"],
+            "args": ["${workspaceFolder}/test.pdf", "-s", "58019", "-e", "121223"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],

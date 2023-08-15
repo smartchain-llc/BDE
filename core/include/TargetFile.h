@@ -9,6 +9,7 @@ public:
     TargetFile(const cli::ArgumentPack& cli_args);
     
     const char* path_cstr()         const { return _filepath.c_str(); }
+    const auto  path()              const { return _filepath; }
     const uintmax_t& file_size()    const { return _filesize; }
     const uintmax_t& start()        const { return _startOffset; }
     const uintmax_t& end()          const { return _endOffset; }

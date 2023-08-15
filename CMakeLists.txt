@@ -10,6 +10,7 @@ set(
     ./core/include/ArgumentParser.cxx
     ./core/include/TargetFile.cxx
     ./core/include/ExtractionEngine.cxx
+    ./core/include/types/DataQueue.cxx
 )
 
 add_executable(
